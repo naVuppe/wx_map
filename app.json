@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/map/map",
+        "pages/my/my"
+    ],
+    "tabBar": {
+        "selectedColor": "#ffc0cb",
+        "list": [
+            {
+                "iconPath": "images/home.png",
+                "selectedIconPath": "images/home-active.png",
+                "pagePath": "pages/map/map",
+                "text": "地图"
+            },
+            {
+                "iconPath": "images/my.png",
+                "selectedIconPath": "images/my-active.png",
+                "pagePath": "pages/my/my",
+                "text": "我的"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "wx_map",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
