@@ -1,0 +1,13 @@
+<!-- 地图 -->
+<map longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" />
+
+<!-- 重新获取位置 -->
+<view class="newAddress0" bindtap="againAddress">
+    <view class="newAddress1">
+    </view>
+</view>
+
+<!-- 搜索 -->
+<view class="search">
+    <input type="text" placeholder="搜索" />
+</view>
